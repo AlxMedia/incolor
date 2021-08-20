@@ -706,6 +706,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .article-card { overflow: hidden; }
 .list-card { margin: 0 auto; max-width: 1280px; position: relative; padding: 20px 40px 20px 0; border: 1px solid transparent; border-bottom: 1px solid hsla(0,0%,100%,.15); transition: background-color .2s,border-color .2s,padding .2s; }
 .list-card:hover { background-color: rgba(255,255,255,.05); border-color: rgba(255,255,255,.3); padding-left: 20px; padding-right: 20px; }
+.list-card:hover .thumb-icon { background: #fff; color: #111; }
 .list-card-wrap { display: block; position: relative; padding-left: 270px; min-height: 140px; }
 .list-card-left { position: absolute; left: 0; top: 0; }
 .list-card-link { top: 0; bottom: 0; left: 0; position: absolute; right: 0; outline: none; }
@@ -742,8 +743,9 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .featured-card:hover:after { border-color: rgba(255,255,255,0.3); }
 
 .featured-card-image-wrapper { height: 180px; overflow: hidden; }
-.featured-card-image { width: 100%; height: 100%; background-size: cover; background-position: 50%; overflow: hidden; transition: all .5s cubic-bezier(0,0,0,1.15); }
+.featured-card-image { position: relative; width: 100%; height: 100%; background-size: cover; background-position: 50%; overflow: hidden; transition: all .5s cubic-bezier(0,0,0,1.15); }
 .featured-card:hover .featured-card-image { -ms-transform: scale(1.05); transform: scale(1.05); }
+.featured-card:hover .thumb-icon { background: #fff; color: #111; }
 .featured-card-link { top: 0; bottom: 0; left: 0; position: absolute; right: 0; outline: none; }
 .featured-card-link:focus { background: rgba(255,255,255,0.06); }
 .featured-card-content { padding: 30px; }
@@ -807,9 +809,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Section: Footer
 /* ------------------------------------------------------------------------- */
 #footer { background: rgba(255,255,255,0.06); border-top: 1px solid rgba(255,255,255,0.1); color: #777; position: relative; padding-bottom: 20px; }
-#footer .pad { padding-bottom: 20px; }
 
-#footer-ads { text-align: center; padding: 10px 0; border-bottom: 1px solid #444; }
+#footer-ads { text-align: center; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
 #footer-ads .widget { padding-bottom: 0; font-size: 0; line-height: 0; }
 #footer-ads h3 { display: none; }
 
