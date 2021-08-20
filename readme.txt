@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors,
 
 == Description ==
 
-Incolor is a flexible blog theme with plenty of options. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Incolor
+Incolor is a flexible blog and magazine theme built with only semi-transparent elements, which means you can set it to any background color you want and it will look great. You can also pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Incolor
 
 == Installation ==
 
