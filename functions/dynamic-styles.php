@@ -177,7 +177,16 @@ body,
 			// content background color
 			if ( get_theme_mod('color-content-background','') != '' ) {
 				$styles .= '
-#page { background-color: '.esc_attr( get_theme_mod('color-content-background') ).'; }
+#page,
+.themeform input[type="search"],
+.themeform input[type="text"], 
+.themeform input[type="password"], 
+.themeform input[type="email"], 
+.themeform input[type="url"],
+.themeform input[type="tel"],
+.themeform input[type="number"],
+.themeform select,
+.themeform textarea { background-color: '.esc_attr( get_theme_mod('color-content-background') ).'; }
 #wrapper-bg { display: none; }
 				'."\n";
 			}
