@@ -204,6 +204,12 @@ body,
 #footer { background-color: '.esc_attr( get_theme_mod('color-footer-background') ).'; }
 				'."\n";
 			}
+			// footer bottom background color
+			if ( get_theme_mod('color-footer-bottom-background','') != '' ) {
+				$styles .= '
+#footer-bottom { background-color: '.esc_attr( get_theme_mod('color-footer-bottom-background') ).'; }
+				'."\n";
+			}
 			// header logo max-height
 			if ( get_theme_mod('logo-max-height','60') != '60' ) {
 				$styles .= '.site-title a img { max-height: '.esc_attr( get_theme_mod('logo-max-height') ).'px; }'."\n";

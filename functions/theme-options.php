@@ -693,6 +693,14 @@ Kirki::add_field( 'incolor_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
+// Styling: Footer Bottom Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-footer-bottom-background',
+	'label'			=> esc_html__( 'Footer Bottom Background Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
 // Styling: Header Logo Max-height
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'slider',
