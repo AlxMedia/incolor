@@ -157,9 +157,41 @@ body,
 				'."\n";
 			}
 			// background color (boxed)
-			if ( get_theme_mod('color-background','#2d313a') != '#2d313a' ) {
+			if ( get_theme_mod('color-background-boxed','#2d313a') != '#2d313a' ) {
 				$styles .= '
 .boxed #wrapper { background-color: '.esc_attr( get_theme_mod('color-background-boxed') ).'; }
+				'."\n";
+			}
+			// header background color
+			if ( get_theme_mod('color-header-background','') != '' ) {
+				$styles .= '
+#header { background-color: '.esc_attr( get_theme_mod('color-header-background') ).'; }
+				'."\n";
+			}
+			// carousel background color
+			if ( get_theme_mod('color-carousel-background','') != '' ) {
+				$styles .= '
+.slick-featured { background-color: '.esc_attr( get_theme_mod('color-carousel-background') ).'; }
+				'."\n";
+			}
+			// content background color
+			if ( get_theme_mod('color-content-background','') != '' ) {
+				$styles .= '
+#page { background-color: '.esc_attr( get_theme_mod('color-content-background') ).'; }
+#wrapper-bg { display: none; }
+				'."\n";
+			}
+			// sidebar widget background color
+			if ( get_theme_mod('color-widget-background','') != '' ) {
+				$styles .= '
+.sidebar .widget,
+.sidebar .widget:hover { background-color: '.esc_attr( get_theme_mod('color-widget-background') ).'; }
+				'."\n";
+			}
+			// footer background color
+			if ( get_theme_mod('color-footer-background','') != '' ) {
+				$styles .= '
+#footer { background-color: '.esc_attr( get_theme_mod('color-footer-background') ).'; }
 				'."\n";
 			}
 			// header logo max-height

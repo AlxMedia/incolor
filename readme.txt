@@ -87,5 +87,8 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.1 - 2021-08-21 =
+* Added several more styling layout color options
+
 = 1.0.0 - 2021-08-21 =
 * Initial release

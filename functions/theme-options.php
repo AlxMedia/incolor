@@ -653,6 +653,46 @@ Kirki::add_field( 'incolor_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#2d313a',
 ) );
+// Styling: Header Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-header-background',
+	'label'			=> esc_html__( 'Header Background Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
+// Styling: Carousel Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-carousel-background',
+	'label'			=> esc_html__( 'Carousel Background Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
+// Styling: Content Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-content-background',
+	'label'			=> esc_html__( 'Content Background Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
+// Styling: Widget Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-widget-background',
+	'label'			=> esc_html__( 'Sidebar Widget Background Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
+// Styling: Footer Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-footer-background',
+	'label'			=> esc_html__( 'Footer Background Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
 // Styling: Header Logo Max-height
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'slider',

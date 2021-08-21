@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Incolor\n"
-"POT-Creation-Date: 2021-08-20 19:44+0200\n"
+"POT-Creation-Date: 2021-08-21 11:11+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -715,10 +715,30 @@ msgid "Background Color (Boxed)"
 msgstr ""
 
 #: functions/theme-options.php:660
+msgid "Header Background Color"
+msgstr ""
+
+#: functions/theme-options.php:668
+msgid "Carousel Background Color"
+msgstr ""
+
+#: functions/theme-options.php:676
+msgid "Content Background Color"
+msgstr ""
+
+#: functions/theme-options.php:684
+msgid "Sidebar Widget Background Color"
+msgstr ""
+
+#: functions/theme-options.php:692
+msgid "Footer Background Color"
+msgstr ""
+
+#: functions/theme-options.php:700
 msgid "Header Logo Image Max-height"
 msgstr ""
 
-#: functions/theme-options.php:661
+#: functions/theme-options.php:701
 msgid ""
 "Your logo image should have the double height of this to be high resolution"
 msgstr ""
