@@ -194,7 +194,8 @@ body,
 			if ( get_theme_mod('color-widget-background','') != '' ) {
 				$styles .= '
 .sidebar .widget,
-.sidebar .widget:hover { background-color: '.esc_attr( get_theme_mod('color-widget-background') ).'; }
+.sidebar .widget:hover,
+.sidebar .post-nav { background-color: '.esc_attr( get_theme_mod('color-widget-background') ).'; }
 				'."\n";
 			}
 			// footer background color
