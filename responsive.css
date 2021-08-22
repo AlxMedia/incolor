@@ -26,7 +26,7 @@
 @media only screen and (min-width: 480px) and (max-width: 960px) {
 	
 	/* s1 general */
-	.s1 { width: 100%; }
+	.s1 { width: 100%; padding-top: 40px; }
 	.s1 .sidebar-content { width: 100%; }
 	
 	.col-2cr .s1 { margin-left: 0; }
