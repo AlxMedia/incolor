@@ -1,7 +1,7 @@
 /*
 Theme Name: Incolor
 Theme URI: http://alx.media/themes/incolor/
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -521,6 +521,17 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 	#wrap-nav-header { float: left; }
 	.search-trap-focus { float: right; }
 }
+
+#profile { background: #009ae4; position: relative; margin-bottom: 30px; text-align: center; }
+#profile:after { content: ""; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.3); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
+#profile a { color: #fff; }
+#profile a:hover { color: rgba(255,255,255,0.75); }
+#profile-inner { position: relative; }
+#profile-image { width: 100%; }
+#profile-image img { width: 100%; display: block; }
+#profile-name { background: #151a23; color: #fff; position: relative; margin: -30px 30px 30px 30px; padding: 10px; font-size: 28px; font-weight: 600; text-transform: uppercase; line-height: 1.2em; }
+#profile-name:after { content:""; display: block; position: absolute; bottom: -10px; right: 50%; margin-right: -10px; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #151a23; }
+#profile-description { font-size: 16px; padding: 0 30px 30px; line-height: 1.6em; font-weight: 300; color: rgba(255,255,255,0.75); position: relative; }
 
 /*  header : search
 /* ------------------------------------ */

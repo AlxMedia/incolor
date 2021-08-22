@@ -133,7 +133,8 @@ a,
 .commentlist li.comment-author-admin > .comment-body:after,
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
-.wp-pagenavi span.current { background-color: '.esc_attr( get_theme_mod('color-1') ).'; }
+.wp-pagenavi span.current,
+#profile { background-color: '.esc_attr( get_theme_mod('color-1') ).'; }
 
 .card-comments:before { border-right: 10px solid '.esc_attr( get_theme_mod('color-1') ).'; }
 				'."\n";
@@ -151,7 +152,10 @@ body,
 .themeform input[type="number"],
 .themeform select,
 .themeform textarea,
-.search-expand .themeform input { background-color: '.esc_attr( get_theme_mod('color-background') ).'; }
+.search-expand .themeform input,
+#profile-name { background-color: '.esc_attr( get_theme_mod('color-background') ).'; }
+
+#profile-name:after { border-top-color: '.esc_attr( get_theme_mod('color-background') ).'; }
 
 #wrapper-bg { display: none; }
 				'."\n";
@@ -196,6 +200,19 @@ body,
 .sidebar .widget,
 .sidebar .widget:hover,
 .sidebar .post-nav { background-color: '.esc_attr( get_theme_mod('color-widget-background') ).'; }
+				'."\n";
+			}
+			// sidebar profile background color
+			if ( get_theme_mod('color-profile-background','') != '' ) {
+				$styles .= '
+#profile { background-color: '.esc_attr( get_theme_mod('color-profile-background') ).'; }
+				'."\n";
+			}
+			// sidebar profile name background color
+			if ( get_theme_mod('color-profile-name','') != '' ) {
+				$styles .= '
+#profile-name { background-color: '.esc_attr( get_theme_mod('color-profile-name') ).'; }
+#profile-name:after { border-top-color: '.esc_attr( get_theme_mod('color-profile-name') ).'; }
 				'."\n";
 			}
 			// footer background color

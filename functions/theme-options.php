@@ -248,6 +248,33 @@ Kirki::add_field( 'incolor_theme', array(
 	'section'		=> 'header',
 	'default'		=> 'on',
 ) );
+// Header: Profile Avatar
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'image',
+	'settings'		=> 'profile-image',
+	'label'			=> esc_html__( 'Profile Image', 'incolor' ),
+	'description'	=> esc_html__( '320px minimum width ', 'incolor' ),
+	'section'		=> 'header',
+	'default'		=> '',
+) );
+// Header: Profile Name
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'text',
+	'settings'		=> 'profile-name',
+	'label'			=> esc_html__( 'Profile Name', 'incolor' ),
+	'description'	=> esc_html__( 'Your name appears below the image', 'incolor' ),
+	'section'		=> 'header',
+	'default'		=> '',
+) );
+// Header: Profile Description
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'textarea',
+	'settings'		=> 'profile-description',
+	'label'			=> esc_html__( 'Profile Description', 'incolor' ),
+	'description'	=> esc_html__( 'A short description of you', 'incolor' ),
+	'section'		=> 'header',
+	'default'		=> '',
+) );
 // Footer: Ads
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'switch',
@@ -657,7 +684,7 @@ Kirki::add_field( 'incolor_theme', array(
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-header-background',
-	'label'			=> esc_html__( 'Header Background Color', 'incolor' ),
+	'label'			=> esc_html__( 'Header Color', 'incolor' ),
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
@@ -665,7 +692,7 @@ Kirki::add_field( 'incolor_theme', array(
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-carousel-background',
-	'label'			=> esc_html__( 'Carousel Background Color', 'incolor' ),
+	'label'			=> esc_html__( 'Carousel Color', 'incolor' ),
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
@@ -673,7 +700,7 @@ Kirki::add_field( 'incolor_theme', array(
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-content-background',
-	'label'			=> esc_html__( 'Content Background Color', 'incolor' ),
+	'label'			=> esc_html__( 'Content Color', 'incolor' ),
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
@@ -681,7 +708,23 @@ Kirki::add_field( 'incolor_theme', array(
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-widget-background',
-	'label'			=> esc_html__( 'Sidebar Widget Background Color', 'incolor' ),
+	'label'			=> esc_html__( 'Sidebar Widget Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
+// Styling: Profile Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-profile-background',
+	'label'			=> esc_html__( 'Sidebar Profile Color', 'incolor' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
+// Styling: Profile Name Background
+Kirki::add_field( 'incolor_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-profile-name',
+	'label'			=> esc_html__( 'Sidebar Profile Name Color', 'incolor' ),
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
@@ -689,7 +732,7 @@ Kirki::add_field( 'incolor_theme', array(
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-footer-background',
-	'label'			=> esc_html__( 'Footer Background Color', 'incolor' ),
+	'label'			=> esc_html__( 'Footer Color', 'incolor' ),
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
@@ -697,7 +740,7 @@ Kirki::add_field( 'incolor_theme', array(
 Kirki::add_field( 'incolor_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-footer-bottom-background',
-	'label'			=> esc_html__( 'Footer Bottom Background Color', 'incolor' ),
+	'label'			=> esc_html__( 'Footer Bottom Color', 'incolor' ),
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );

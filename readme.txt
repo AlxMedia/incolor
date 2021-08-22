@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.3 - 2021-08-22 =
+* Added profile block to top of sidebar
+
 = 1.0.2 - 2021-08-22 =
 * Added new styling for category pages with two large entries up top (the latest posts)
 

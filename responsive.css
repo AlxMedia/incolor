@@ -18,6 +18,8 @@
 	.entry-media,
 	.entry-content,
 	.entry-footer { padding-right: 20px; padding-left: 20px; }
+	
+	#profile-name { font-size: 22px; }
 }
 
 /* ------------------------------------------------------------------------- *
@@ -170,6 +172,7 @@
 	.page-title h4 { font-size: 18px; }
 	.page-title .notebox { font-size: 15px; }
 	#footer-widgets { padding-left: 15px; padding-right: 15px; }
+	#profile-name { font-size: 22px; }
 	
 	/* header */
 	.site-title { font-size: 32px; }
