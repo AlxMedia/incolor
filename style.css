@@ -754,11 +754,11 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .featured-card-title { font-size: 18px; line-height: 1.5em; text-transform: uppercase; font-weight: 600; height: 80px; overflow: hidden; }
 .featured-card-title a { color: #fff; position: relative; }
 
-body.category.paged .featured-card-category { display: none; }
-.featured-card-category .featured-card-outer { margin: 30px 0; float: left; width: 50%; }
-.featured-card-category .featured-card { margin: 0; }
-.featured-card-category .featured-card-outer:nth-child(1) .featured-card { margin-right: 20px; }
-.featured-card-category .featured-card-outer:nth-child(2) .featured-card { margin-left: 20px; }
+body.category.paged .category-featured-cards { display: none; }
+.category-featured-cards .featured-card-outer { margin: 30px 0; float: left; width: 50%; }
+.category-featured-cards .featured-card { margin: 0; }
+.category-featured-cards .featured-card-outer:nth-child(1) .featured-card { margin-right: 20px; }
+.category-featured-cards .featured-card-outer:nth-child(2) .featured-card { margin-left: 20px; }
 
 .card-comments { background: #009ae4; color: #fff; padding: 1px 8px; position: absolute; right: 0; top: 20px; transition: all 0.2s ease; }
 .card-comments:hover span { padding-right: 10px; }

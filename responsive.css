@@ -190,10 +190,10 @@
 	.front-widgets { padding: 10px 15px 10px 15px; }
 	
 	/* category */
-	.featured-card-category .featured-card-outer { width: 100%; margin: 20px 0 0; }
-	.featured-card-category .featured-card-outer:nth-child(1) .featured-card { margin-right: 0; }
-	.featured-card-category .featured-card-outer:nth-child(2) .featured-card { margin-left: 0; }
-	.featured-card-category .featured-card-image-wrapper { height: 160px; }
+	.category-featured-cards .featured-card-outer { width: 100%; margin: 20px 0 0; }
+	.category-featured-cards .featured-card-outer:nth-child(1) .featured-card { margin-right: 0; }
+	.category-featured-cards .featured-card-outer:nth-child(2) .featured-card { margin-left: 0; }
+	.category-featured-cards .featured-card-image-wrapper { height: 160px; }
 	
 	/* single */
 	.entry-header .entry-title { font-size: 22px; letter-spacing: 0; }

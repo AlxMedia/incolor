@@ -15,7 +15,7 @@
 
 	<?php get_template_part('inc/page-title'); ?>
 	
-	<div class="featured-card-category group">
+	<div class="category-featured-cards group">
 		<?php
 			while ( $loop_featured->have_posts() ) : $loop_featured->the_post();
 				$ids[] = get_the_ID();
