@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.4 - 2021-08-22 =
+* Minor styling improvements to sidebar profile
+
 = 1.0.3 - 2021-08-22 =
 * Added profile block to top of sidebar
 
