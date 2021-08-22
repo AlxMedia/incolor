@@ -1,11 +1,11 @@
 /*
 Theme Name: Incolor
 Theme URI: http://alx.media/themes/incolor/
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
-Description: <a href="http://alx.media/themes/incolor/">Incolor</a> is a flexible blog and magazine theme built with only semi-transparent elements, which means you can set it to any background color you want and it will look great. You can also pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Incolor
+Description: <a href="http://alx.media/themes/incolor/">Incolor</a> is a flexible blog and magazine theme built with only semi-transparent elements, which means you can set any background colors you want and it will look great. Choose colors for body, header, carousel, content, sidebar widgets, footer and more. You can also pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Give it a try! Demo: http://demo.alx.media/x/?theme=Incolor
 Author: Alexander Agnarson
 Author URI: http://alx.media
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -475,7 +475,7 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.03); }
 
 /*  common : thumb icon
 /* ------------------------------------ */
-.thumb-icon { background: rgba(0,0,0,0.7); color: #fff; text-align: center; display: block; width: 32px; height: 32px; position: absolute; bottom: 50%; left: 50%; margin-left: -16px; margin-bottom: -16px;
+.thumb-icon { background: rgba(0,0,0,0.7); pointer-events: none; color: #fff; text-align: center; display: block; width: 32px; height: 32px; position: absolute; bottom: 50%; left: 50%; margin-left: -16px; margin-bottom: -16px;
 -webkit-border-radius: 4px; border-radius: 4px;
 -moz-transition: all 0.7s ease; -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
 -webkit-box-shadow: 0 0 2px rgba(255,255,255,0.4);
@@ -754,10 +754,16 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .featured-card-title { font-size: 18px; line-height: 1.5em; text-transform: uppercase; font-weight: 600; height: 80px; overflow: hidden; }
 .featured-card-title a { color: #fff; position: relative; }
 
+body.category.paged .featured-card-category { display: none; }
+.featured-card-category .featured-card-outer { margin: 30px 0; float: left; width: 50%; }
+.featured-card-category .featured-card { margin: 0; }
+.featured-card-category .featured-card-outer:nth-child(1) .featured-card { margin-right: 20px; }
+.featured-card-category .featured-card-outer:nth-child(2) .featured-card { margin-left: 20px; }
+
 .card-comments { background: #009ae4; color: #fff; padding: 1px 8px; position: absolute; right: 0; top: 20px; transition: all 0.2s ease; }
 .card-comments:hover span { padding-right: 10px; }
 .card-comments span { color: #fff; font-size: 12px; font-weight: 600; transition: all 0.2s ease; }
-.card-comments i { margin-right: 4px; position: relative; top: 2px; }
+.card-comments i { color: #fff; margin-right: 4px; position: relative; top: 2px; }
 .card-comments:before { content:""; position: absolute; left: -8px; top: 3px; display: block; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #009ae4; z-index: 2; }
 .card-comments:after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.3); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
 

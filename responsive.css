@@ -58,6 +58,7 @@
 	
 	.container { padding: 0; }
 	.grid { width: 100%; margin: 0 0 10px; }
+	.sidebar.s1 { padding-top: 40px; }
 	.sidebar .widget { padding-left: 20px; padding-right: 20px; }
 	.pagination { margin-left: 20px; margin-right: 20px; }
 	
@@ -175,7 +176,7 @@
 	
 	/* blog */
 	.featured-card { margin-left: 10px; margin-right: 10px; }
-	.featured-card-image-wrapper { height: 130px; }
+	.featured-card-image-wrapper { height: 160px; }
 	.featured-card-title { font-size: 16px; height: 92px; }
 	.slick-posts { padding-top: 20px; padding-bottom: 20px; }
 	
@@ -187,6 +188,12 @@
 	
 	#page { padding: 30px 20px; }
 	.front-widgets { padding: 10px 15px 10px 15px; }
+	
+	/* category */
+	.featured-card-category .featured-card-outer { width: 100%; margin: 20px 0 0; }
+	.featured-card-category .featured-card-outer:nth-child(1) .featured-card { margin-right: 0; }
+	.featured-card-category .featured-card-outer:nth-child(2) .featured-card { margin-left: 0; }
+	.featured-card-category .featured-card-image-wrapper { height: 160px; }
 	
 	/* single */
 	.entry-header .entry-title { font-size: 22px; letter-spacing: 0; }

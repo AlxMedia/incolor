@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors,
 
 == Description ==
 
-Incolor is a flexible blog and magazine theme built with only semi-transparent elements, which means you can set it to any background color you want and it will look great. You can also pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Incolor
+Incolor is a flexible blog and magazine theme built with only semi-transparent elements, which means you can set any background colors you want and it will look great. Choose colors for body, header, carousel, content, sidebar widgets, footer and more. You can also pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Give it a try! Demo: http://demo.alx.media/x/?theme=Incolor
 
 == Installation ==
 
@@ -86,6 +86,9 @@ Sidebar images
 4. https://stocksnap.io/photo/FLU1A9EK7E - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.2 - 2021-08-22 =
+* Added new styling for category pages with two large entries up top (the latest posts)
 
 = 1.0.1 - 2021-08-21 =
 * Added several more styling layout color options
