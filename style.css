@@ -1,7 +1,7 @@
 /*
 Theme Name: Incolor
 Theme URI: http://alx.media/themes/incolor/
-Version: 1.0.5
+Version: 1.0.6
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -1001,6 +1001,7 @@ body.category.paged .category-featured-cards { display: none; }
 .sidebar .widget:hover { background: rgba(255,255,255,0.10); }
 .sidebar .widget:after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.15); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
 .sidebar .widget.widget_alx_tabs { padding: 0; }
+.sidebar .widget.widget_alx_tabs > h3 { padding: 30px 30px 10px 30px; }
 
 /*  widgets : icons
 /* ------------------------------------ */

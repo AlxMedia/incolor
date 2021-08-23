@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.6 - 2021-08-23 =
+* Improved styling for tabs widget title
+
 = 1.0.5 - 2021-08-23 =
 * Improved related posts styling
 * Fixed wordpress footer link
