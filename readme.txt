@@ -87,6 +87,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.5 - 2021-08-23 =
+* Improved related posts styling
+* Fixed wordpress footer link
+
 = 1.0.4 - 2021-08-22 =
 * Minor styling improvements to sidebar profile
 

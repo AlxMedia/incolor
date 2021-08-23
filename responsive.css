@@ -134,10 +134,6 @@
 	.post-nav li a { min-height: 0; }
 	.post-nav li.previous { border-top: 1px solid #444; }
 	
-	.related-posts li { width: 50%; }
-	.related-posts li:nth-child(2) article { border-right-color: transparent; } 
-	.related-posts li:nth-child(3) { display: none; }
-	
 }
 
 /* ------------------------------------------------------------------------- *

@@ -1,7 +1,7 @@
 /*
 Theme Name: Incolor
 Theme URI: http://alx.media/themes/incolor/
-Version: 1.0.4
+Version: 1.0.5
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -933,20 +933,6 @@ body.category.paged .category-featured-cards { display: none; }
 .author-bio p { margin-bottom: 8px; }
 .author-bio .bio-name { color: #fff; font-size: 19px; font-weight: 600; margin: 10px 0; }
 .author-bio .bio-desc { color: rgba(255,255,255,0.5); font-size: 14px; line-height: 1.5em; }
-
-/*  single : related posts
-/* ------------------------------------ */
-.related-posts { margin-bottom: 40px; }
-.related-posts li { width: 33.33%; float: left; display: inline; }
-.related-post { border-right: 1px solid transparent; }
-.related-inner { padding: 0 20px 0 0; }
-.related-title { margin-bottom: 10px; font-size: 17px; font-weight: 600; line-height: 1.4em; letter-spacing: 0; display: block; }
-.related-title a { color: rgba(255,255,255,0.7); }
-.related-title a:hover  { color: #fff; }
-.related-thumbnail { width: 100%; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
-.related-thumbnail { position: relative; margin-bottom: 20px; }
-.related-thumbnail img { display: block; width: 100%; height: auto; }
-.related-thumbnail:hover .thumb-icon { background: #fff; color: #333; }
 
 /*  single : post-nav
 /* ------------------------------------ */
