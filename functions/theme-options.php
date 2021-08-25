@@ -19,6 +19,14 @@ Kirki::add_section( 'morelink', array(
 	'button_url'  => 'http://alx.media/themes/',
 	'priority'    => 13,
 ) );
+Kirki::add_section( 'reviewlink', array(
+	'title'       => esc_html__( 'Like This Theme?', 'incolor' ),
+	'panel'       => 'options',
+	'type'        => 'link',
+	'button_text' => esc_html__( 'Write a Review', 'incolor' ),
+	'button_url'  => 'https://wordpress.org/support/theme/incolor/reviews/#new-post',
+	'priority'    => 1,
+) );
 
 /*  Add Panels
 /* ------------------------------------ */

@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.8 - 2021-08-25 =
+* Added review link to theme options
+
 = 1.0.7 - 2021-08-23 =
 * Added missing theme tags for wordpress.org
 
