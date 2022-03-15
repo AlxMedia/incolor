@@ -87,8 +87,8 @@ Sidebar images
 
 == Changelog ==
 
-= 1.0.9 - 2022-01-24 =
-* Updated to Kirki 4.0
+= 1.0.9 - 2022-03-15 =
+* Updated to Kirki 4.0.22
 
 = 1.0.8 - 2021-08-25 =
 * Added review link to theme options
